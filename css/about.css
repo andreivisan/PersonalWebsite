@@ -1,0 +1,29 @@
+.description_container {
+    width: 100%;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 300px 0px 0px 70px;
+    position: relative;
+    font-family: Special Elite;
+}
+
+.description_heading {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.description_body {
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 2em;
+    font-size: 1.2em;
+    letter-spacing: 0.8px;
+}
+
+.description_body span {
+    color: #ff214f;
+}
