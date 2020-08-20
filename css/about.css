@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    padding: 300px 0px 0px 70px;
+    padding: 170px 0px 0px 70px;
     position: relative;
     font-family: Special Elite;
 }
@@ -26,4 +26,130 @@
 
 .description_body span {
     color: #ff214f;
+}
+
+/* Floating Social Media Bar Style Starts Here */
+.fl-fl {
+    background: #000000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 7px;
+    width: 190px;
+    position: fixed;
+    right: -160px;
+    z-index: 1000;
+    font: normal normal 10px Arial;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+.fa {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    width: 40px;
+    margin-left: 8px;
+}
+
+.fl-fl:hover {
+    right: 0;
+}
+
+.fl-fl a {
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px!important;
+    vertical-align: top!important;
+}
+
+.float-github {
+    bottom: 360px;
+}
+
+.float-ig {
+    bottom: 300px;
+}
+
+.float-linkedin {
+    bottom: 240px;
+}
+
+.float-youtube {
+    bottom: 180px;
+}
+  /* Floating Social Media Bar Style Ends Here */
+
+.about_short_contact_wrap {
+    width: 100%;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0px 0px 0px 70px;
+    position: relative;
+    font-family: Special Elite;
+}
+
+.about_short_contact_wrap ul {
+    margin: 0px;
+    list-style-type: none;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.about_short_contact_wrap ul li {
+    margin: 0px 0px 20px 0px;
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-left: 30px;
+}
+
+.about_short_contact_wrap ul li a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.about_short_contact_wrap ul li a:hover{
+    border-bottom-color: #000;
+}
+
+.download_cv_button {
+    margin-top: 27px;
+}
+
+.bttn_download {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: .8em 2.1em;
+    margin-bottom: .75em;
+    margin-right: .25em;
+    font-size: 1em;
+    line-height: 1.2;
+    border: 0;
+    outline: 0;
+    border: 2px solid #ff214f;
+    color: #000;
+    text-shadow: none;
+    background-color: transparent;
+    border-radius: 30px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 10px 10px -8px rgba(0,0,0,.4);
 }
