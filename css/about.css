@@ -1,24 +1,24 @@
 .description_container {
-    width: 100%;
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    padding: 170px 0px 0px 70px;
-    position: relative;
+    display: grid;
+    height: 100vh;
     font-family: Special Elite;
 }
 
+.description {
+    max-width: 1250px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 7rem;
+    align-self: center;
+    justify-self: center;
+}
+
 .description_heading {
-    display: inline-block;
     font-weight: bold;
     font-size: 3em;
 }
 
 .description_body {
-    display: inline-block;
-    text-overflow: ellipsis;
-    overflow: hidden;
     line-height: 2em;
     font-size: 1.2em;
     letter-spacing: 0.8px;
@@ -83,18 +83,8 @@
 }
   /* Floating Social Media Bar Style Ends Here */
 
-.about_short_contact_wrap {
-    width: 100%;
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    padding: 0px 0px 0px 70px;
-    position: relative;
+.description_container ul {
     font-family: Special Elite;
-}
-
-.about_short_contact_wrap ul {
     margin: 0px;
     list-style-type: none;
     -webkit-column-count: 2;
@@ -102,7 +92,7 @@
     column-count: 2;
 }
 
-.about_short_contact_wrap ul li {
+.description_container ul li {
     margin: 0px 0px 20px 0px;
     width: 50%;
     float: left;
@@ -110,7 +100,7 @@
     padding-left: 30px;
 }
 
-.about_short_contact_wrap ul li a {
+.description_container ul li a {
     text-decoration: none;
     color: #000;
     position: relative;
@@ -122,7 +112,7 @@
     transition: all .3s ease;
 }
 
-.about_short_contact_wrap ul li a:hover{
+.description_container ul li a:hover{
     border-bottom-color: #000;
 }
 
