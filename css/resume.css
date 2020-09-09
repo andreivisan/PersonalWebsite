@@ -1,0 +1,99 @@
+.resume_container {
+    display: grid;
+    height: 100vh;
+    font-family: Special Elite;
+}
+
+.history-resume {
+    max-width: 1250px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 7rem;
+    align-self: center;
+    justify-self: center;
+}
+
+.cols .col.col-md {
+    float: left;
+    width: 50%;
+}
+
+.resume_title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.resume_title .title_inner {
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.resume-items .resume-item:first-child {
+    padding-top: 0;
+}
+
+.resume-items .resume-item {
+    position: relative;
+    padding: 0 30px 60px 30px;
+}
+
+.resume-items .resume-item:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #ff214f;
+}
+
+.resume-items .resume-item .date {
+    position: relative;
+    top: -10px;
+    margin: 0 0 5px 0;
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 11px;
+    color: #ff214f;
+    border: 1px solid #ff214f;
+}
+
+.resume-items .resume-item .date:before {
+    content: '';
+    width: 29px;
+    height: 1px;
+    position: absolute;
+    left: -30px;
+    top: 9px;
+    background: #ff214f;
+}
+
+.resume-items .resume-item .name {
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
+.resume-items .resume-item p {
+    margin: 0;
+    line-height: 23px;
+    padding: 0;
+}
+
+.resume-items .resume-item:last-child {
+    padding-bottom: 0;
+    margin-top: -1px;
+}
+
+.resume-items .resume-item:last-child:before {
+    display: none;
+}
+
+.cols:after {
+    content: '';
+    display: block;
+    clear: both;
+}
