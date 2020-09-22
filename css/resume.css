@@ -4,6 +4,52 @@
     font-family: Special Elite;
 }
 
+
+
+.filters {
+    margin-bottom: 30px;
+}
+
+.filters .btn-group {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.filters label {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-right: 25px;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 0;
+}
+
+input, textarea, button {
+    display: block;
+    background: none;
+    height: 60px;
+    margin-bottom: 30px;
+    padding: 0;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    outline: 0;
+}
+
+
+
+
+
+
 .history-resume {
     max-width: 1250px;
     padding-left: 2rem;
